@@ -1,0 +1,241 @@
+.goog {
+  animation-name: move-in-g;
+  animation-iteration-count: 1;
+  animation-delay: 2ms;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+
+  animation-direction: normal;
+}
+
+@keyframes move-in-g {
+  0% {
+    top: 300px;
+    left: 500px;
+    transform: scale(0.15);
+  }
+
+  50% {
+    top: 250px;
+    left: 260px;
+    transform: scale(0.75);
+  }
+
+  75% {
+    transform: scale(1.25);
+  }
+
+  85% {
+    transform: scale(1.75);
+  }
+
+  100% {
+    top: 10px;
+    left: 64px;
+    transform: scale(1);
+  }
+}
+
+.asan {
+  animation-name: move-in-asan;
+  animation-iteration-count: 1;
+  animation-delay: 3ms;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+
+  animation-direction: normal;
+}
+
+@keyframes move-in-asan {
+  0% {
+    top: 300px;
+    left: 10px;
+    transform: rotate(45deg);
+    transform: scale(0.15);
+  }
+  15% {
+    transform: rotate(90deg);
+  }
+  25% {
+    transform: rotate(180deg);
+  }
+
+  50% {
+    transform: rotate(45deg);
+    transform: scale(0.5);
+  }
+
+  75% {
+    transform: rotate(90deg);
+    transform: scale(0.75);
+  }
+
+  85% {
+    transform: rotate(180deg);
+  }
+  90% {
+    transform: rotate(45deg);
+  }
+
+  100% {
+    top: 10px;
+    left: 380px;
+    transform: rotate(0deg);
+    transform: scale(1);
+  }
+}
+
+.atlass {
+  animation-name: move-in-atlass;
+  animation-iteration-count: 1;
+  animation-delay: 2ms;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-direction: normal;
+}
+
+@keyframes move-in-atlass {
+  0% {
+    top: 300px;
+    left: 400px;
+
+    opacity: 0;
+  }
+  15% {
+    opacity: 0.22;
+  }
+  25% {
+    opacity: 0.44;
+  }
+
+  50% {
+    top: 150px;
+    left: 200px;
+
+    opacity: 0.5;
+  }
+
+  75% {
+    opacity: 0.7;
+  }
+
+  100% {
+    top: 10px;
+    left: 175px;
+    opacity: 1;
+  }
+}
+
+.pay-pal {
+  animation-name: move-in-pay-pal;
+  animation-iteration-count: 1;
+  animation-delay: 2ms;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-direction: normal;
+}
+
+@keyframes move-in-pay-pal {
+  0% {
+    top: 400px;
+    left: 370px;
+  }
+
+  100% {
+    top: 172px;
+    left: 44px;
+  }
+}
+
+.weave {
+  animation-name: move-in-weave;
+  animation-iteration-count: 1;
+  animation-delay: 2ms;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-direction: normal;
+}
+@keyframes move-in-weave {
+  0% {
+    top: -30px;
+    left: -20px;
+    transform: scale(0.15);
+  }
+  90% {
+    transform: rotate(45deg);
+  }
+  95% {
+    transform: rotate(90deg);
+  }
+  100% {
+    top: 172px;
+    left: 262px;
+    transform: rotate(0deg);
+  }
+}
+
+.goog-ad {
+  animation-name: move-in-goog-ad;
+  animation-iteration-count: 1;
+  animation-delay: 2ms;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-direction: normal;
+}
+
+@keyframes move-in-goog-ad {
+  0% {
+    top: -30px;
+    left: 520px;
+  }
+  40% {
+    opacity: 0.7;
+  }
+  50% {
+    top: 150px;
+    left: -40px;
+    opacity: 0;
+  }
+  60% {
+    opacity: 0.8;
+  }
+  100% {
+    top: 290px;
+    left: 155px;
+  }
+}
+
+.goog-cal {
+  animation-name: move-in-goog-cal;
+  animation-iteration-count: 1;
+  animation-delay: 2ms;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-direction: normal;
+}
+
+@keyframes move-in-goog-cal {
+  0% {
+    top: -40px;
+    left: -40px;
+    transform: skew(30deg, 20deg);
+    transform: rotate(0);
+  }
+  25% {
+    transform: skew(30deg, 20deg);
+    transform: rotate(0.5deg);
+  }
+  50% {
+    transform: skew(20deg, 30deg);
+    transform: rotate(0.85deg);
+  }
+  75% {
+    transform: skew(10deg, 30deg);
+    transform: rotate(0.5deg);
+  }
+
+  100% {
+    top: 310px;
+    left: 364px;
+  }
+}
